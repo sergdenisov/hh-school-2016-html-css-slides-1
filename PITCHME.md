@@ -394,3 +394,16 @@ id, class, contenteditable, data-*
 * [Строки](https://developer.mozilla.org/en/docs/Web/CSS/string): `"image.png"`, `'image.png'`
 * [Адреса](https://developer.mozilla.org/en-US/docs/Web/CSS/url): `url("image.png")`, `url(image.png)`
 * [Цвета](https://developer.mozilla.org/en/docs/Web/CSS/color): `#00ff00`, `rgba(34, 12, 64, 0.3)`
+
+#HSLIDE
+
+### CSS: [сокращенные свойства](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+
+```css
+border-width: 1px;
+border-style: solid;
+border-color: #000;
+border: 1px solid #000;
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/psjq6k5L/).
