@@ -362,3 +362,12 @@ id, class, contenteditable, data-*
 ```html
 <link href="style.css" rel="stylesheet"/>
 ```
+
+#HSLIDE
+
+### [Упрощенная схема работы браузера](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works#How_does_CSS_actually_work)
+
+![Rendering](images/rendering.png)
+
+Подробнее: [презентация](http://arvindr21.github.io/howBrowserWorks/#/),
+[статья](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
