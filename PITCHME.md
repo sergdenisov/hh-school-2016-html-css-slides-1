@@ -306,3 +306,14 @@ id, class, contenteditable, data-*
     <body>Hello, World!</body>
 </html>
 ```
+
+#HSLIDE
+
+### HTML: [рекомендации](https://google.github.io/styleguide/htmlcssguide.xml#HTML_Style_Rules)
+
+* Соблюдайте [валидность](https://google.github.io/styleguide/htmlcssguide.xml?showone=HTML_Validity#HTML_Validity)
+документа.
+* Верстайте [семантично](https://google.github.io/styleguide/htmlcssguide.xml?showone=Semantics#Semantics).
+* Пишите весь код в [нижнем регистре](https://google.github.io/styleguide/htmlcssguide.xml?showone=Capitalization#Capitalization).
+* Используйте [двойные кавычки](https://google.github.io/styleguide/htmlcssguide.xml?showone=HTML_Quotation_Marks#HTML_Quotation_Marks).
+* Ознакомьтесь с [Google HTML Style Guide](https://google.github.io/styleguide/htmlcssguide.xml#HTML_Style_Rules).
