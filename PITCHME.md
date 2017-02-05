@@ -317,3 +317,22 @@ id, class, contenteditable, data-*
 * Пишите весь код в [нижнем регистре](https://google.github.io/styleguide/htmlcssguide.xml?showone=Capitalization#Capitalization).
 * Используйте [двойные кавычки](https://google.github.io/styleguide/htmlcssguide.xml?showone=HTML_Quotation_Marks#HTML_Quotation_Marks).
 * Ознакомьтесь с [Google HTML Style Guide](https://google.github.io/styleguide/htmlcssguide.xml#HTML_Style_Rules).
+
+#HSLIDE
+
+### [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Cascading Style Sheets — каскадные таблицы стилей) — формальный
+язык описания внешнего вида документа, написанного с использованием языка разметки.
+
+![CSS3](images/css3.png)
+![W3C](images/w3c.jpg)
+
+#VSLIDE
+
+Профит:
+
+* Разделение контента и представления.
+* Уменьшение дублирования кода.
+* Упрощение поддержку.
+* Уменьшение трафика.
