@@ -336,3 +336,29 @@ id, class, contenteditable, data-*
 * Уменьшение дублирования кода.
 * Упрощение поддержку.
 * Уменьшение трафика.
+
+#HSLIDE
+
+### CSS: подключение
+
+* Атрибут [style](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style):
+
+```html
+<div style="color: red">Red text</div>
+```
+
+* Элемент [style](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style):
+
+```html
+<style>
+    body { 
+        color: red;
+    }
+</style>
+```
+
+* Отдельным файлом через элемент [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link):
+
+```html
+<link href="style.css" rel="stylesheet"/>
+```
