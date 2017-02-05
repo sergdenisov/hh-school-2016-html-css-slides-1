@@ -453,3 +453,12 @@ display: list-item;
 display: table;
 display: table-cell;
 ```
+
+#HSLIDE
+
+### CSS: [поток документа](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model)
+
+* [Блочные элементы](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes)
+располагаются друг за другом вертикально.
+* [Строчные элементы](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#Inline-level_elements_and_inline_boxes)
+располагаются друг за другом горизонтально и построчно.
