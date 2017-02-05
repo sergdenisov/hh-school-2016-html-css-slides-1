@@ -371,3 +371,13 @@ id, class, contenteditable, data-*
 
 Подробнее: [презентация](http://arvindr21.github.io/howBrowserWorks/#/),
 [статья](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
+
+#HSLIDE
+
+### CSS: [синтаксис](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+
+![CSS Syntax: Declaration](images/css-syntax-declaration.png)
+
+#VSLIDE
+
+![CSS Syntax: Declarations block](images/css-syntax-declarations-block.png)
