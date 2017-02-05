@@ -274,3 +274,21 @@ id, class, contenteditable, data-*
 ```html
 <button type="button">Click me</button>
 ```
+
+#HSLIDE
+
+### HTML: [комментарии](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#HTML_comments) и [специальные символы (entities)](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
+
+```html
+&nbsp; <!-- неразрывный пробел -->
+ &quot; <!-- " --> 
+&lt; <!-- < -->
+ &gt; <!-- > —>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/rtvj546h/):
+
+```html
+<div>Фамилия&nbsp;Имя&nbsp;Отчество</div> <!-- Неразрывный -->
+<div>Фамилия Имя Отчество</div> <!-- Обычный -->
+```
