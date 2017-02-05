@@ -88,3 +88,167 @@ Web-приложения: [Audio](https://developer.mozilla.org/en-US/docs/Web/A
 * [Валидные элементы](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 * [Валидные атрибуты](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
+
+#HSLIDE
+
+### HTML: [категории контента](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
+
+![Content categories](images/Content_categories_venn.png)
+
++[Basic element (root)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Basic_elements): `<html>`
+
+#VSLIDE
+
+### [Flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
+
+```html
+<div>, <header>, <main>, <footer>, <ol>, <p>, <table>, <ul>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/v82gyp69/):
+
+```html
+<div>Text</div>
+<p>Paragraph with content</p>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+```
+
+#VSLIDE
+
+### [Phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
+
+```html
+<b>, <em>, <i>, <span>, <strong>, <sub>, <sup>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/kLttvwat/):
+
+```html
+<b>Bold text</b>
+<em>Emphasis text</em>
+<span>Simple text</span>
+```
+
+#VSLIDE
+
+### [Metadata content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Metadata_content)
+
+```html
+<meta>, <script>, <style>, <title>
+```
+
+Пример:
+
+```html
+<meta charset="utf-8"/>
+<title>Awesome page title</title>
+<script src="javascript.js"></script>
+```
+
+#VSLIDE
+
+### [Sectioning content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Sectioning_content)
+
+```html
+<article>, <aside>, <nav>, <section>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/mk1ttLd6/1/):
+
+```html
+<article>
+    <p>
+        The Disney movie <em>The Little Mermaid</em> was
+        first released to theatres in 1989.
+    </p>
+    <aside>
+        <p>
+            The movie earned $87 million during its initial
+            release.
+        </p>
+    </aside>
+    <p>More info about the movie...</p>
+</article>
+```
+
+#VSLIDE
+
+### [Heading content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Heading_content)
+
+```html
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/eymartn0/):
+
+```html
+<h1>Main title</h1>
+<h2>Second title</h2>
+<h3>Third title</h3>
+<h4>Fourth title</h4>
+<h5>Fifth title</h5>
+<h6>Sixth title</h6>
+```
+
+#VSLIDE
+
+### [Embedded content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Embedded_content)
+
+```html
+<audio>, <canvas>, <iframe>, <img>, <svg>, <video>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/da5yxs2u/):
+
+```html
+<img src="https://jsfiddle.net/img/logo@2x.png"/>
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/wn1Cvo43ri8"
+        frameborder="0" allowfullscreen>
+</iframe>
+```
+
+#VSLIDE
+
+### [Interactive content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Interactive_content)
+
+```html
+<a>, <button>, <label>, <select>, <textarea>
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/40pdozdb/):
+
+```html
+<a href="https://hh.ru">HeadHunter link</a>
+<label>
+    Choose:
+    <select>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+    </select>
+</label>
+```
+
+#VSLIDE
+
+### [Form-associated content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Form-associated_content)
+
+```html
+<button>, <fieldset>, <input>, <label>, <select>, <textarea>
+```
+
+Пример:
+
+```html
+<form action="https://hh.ru/search/vacancy" method="get">
+    <label>Vacancy name:
+        <input type="text" name="text"/>
+    </label>
+    <input type="hidden" name="area" value="1"/>
+    <button type="submit">Search</button>
+</form>
+```
