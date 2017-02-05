@@ -252,3 +252,25 @@ Web-приложения: [Audio](https://developer.mozilla.org/en-US/docs/Web/A
     <button type="submit">Search</button>
 </form>
 ```
+
+#HSLIDE
+
+### HTML: [типы атрибутов](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+
+* [Глобальные](https://developer.mozilla.org/en/docs/Web/HTML/Global_attributes) — применимы к любому элементу.
+
+```
+id, class, contenteditable, data-*
+```
+
+* [Обязательные для определенного элемента](https://developer.mozilla.org/en/docs/Web/HTML/Element/a#attr-href).
+
+```html
+<a href="https://www.google.ru">Search</a> 
+```
+
+* [Опциональные для определенного элемента](https://developer.mozilla.org/en/docs/Web/HTML/Element/button#attr-type).
+
+```html
+<button type="button">Click me</button>
+```
