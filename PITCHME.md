@@ -292,3 +292,17 @@ id, class, contenteditable, data-*
 <div>Фамилия&nbsp;Имя&nbsp;Отчество</div> <!-- Неразрывный -->
 <div>Фамилия Имя Отчество</div> <!-- Обычный -->
 ```
+
+#HSLIDE
+
+### HTML: минимальный [валидный документ](https://validator.w3.org/#validate_by_input)
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World!</title>
+    </head>
+    <body>Hello, World!</body>
+</html>
+```
