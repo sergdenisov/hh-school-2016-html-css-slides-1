@@ -381,3 +381,16 @@ id, class, contenteditable, data-*
 #VSLIDE
 
 ![CSS Syntax: Declarations block](images/css-syntax-declarations-block.png)
+
+#HSLIDE
+
+### CSS: [типы значений](https://developer.mozilla.org/en/docs/Web/CSS/Value_definition_syntax)
+
+* [Ключевые слова](https://developer.mozilla.org/en/docs/Web/CSS/Value_definition_syntax#Keywords):
+`auto`, `smaller`, `ease-in`
+* [Единицы измерения](https://developer.mozilla.org/en/docs/Web/CSS/length):
+    * [Абсолютные](https://developer.mozilla.org/en/docs/Web/CSS/length#Absolute_length_units): `px`, `cm`, `pt`
+    * [Относительные](https://developer.mozilla.org/en/docs/Web/CSS/length#Relative_length_units): `em`, `rem`, `%`
+* [Строки](https://developer.mozilla.org/en/docs/Web/CSS/string): `"image.png"`, `'image.png'`
+* [Адреса](https://developer.mozilla.org/en-US/docs/Web/CSS/url): `url("image.png")`, `url(image.png)`
+* [Цвета](https://developer.mozilla.org/en/docs/Web/CSS/color): `#00ff00`, `rgba(34, 12, 64, 0.3)`
