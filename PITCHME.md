@@ -407,3 +407,13 @@ border: 1px solid #000;
 ```
 
 [Пример](https://jsfiddle.net/sergdenisov/psjq6k5L/).
+
+#HSLIDE
+
+### CSS: [синтаксис](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) (2)
+
+![CSS Syntax: Ruleset](images/css-syntax-ruleset.png)
+
+#VSLIDE
+
+![CSS Syntax: Statements](images/css-syntax-statements.png)
