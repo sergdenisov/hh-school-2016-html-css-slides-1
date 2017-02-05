@@ -437,3 +437,19 @@ border: 1px solid #000;
     }
 }
 ```
+
+#HSLIDE
+
+### CSS: [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+[Пример](https://jsfiddle.net/sergdenisov/2m3umd53/):
+
+```css
+display: none;
+display: inline;
+display: block;
+display: inline-block;
+display: list-item;
+display: table;
+display: table-cell;
+```
