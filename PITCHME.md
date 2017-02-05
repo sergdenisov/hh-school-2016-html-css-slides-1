@@ -56,3 +56,35 @@ Web-приложения: [Audio](https://developer.mozilla.org/en-US/docs/Web/A
 ```html
 <!DOCTYPE html>
 ```
+
+#HSLIDE
+
+### HTML: [элементы](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_element) и [атрибуты](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Attributes)
+
+![HTML Element](images/anatomy-of-an-html-element.png)
+
+#VSLIDE
+
+Элемент может быть:
+
+* Быть пустым:
+
+```html
+<input type="button"/>
+```
+
+* Содержать другие элементы:
+
+```html
+<ul>
+    <li>Element 1</li>
+    <li>Element 2</li>
+    ...
+</ul>
+```
+
+#VSLIDE
+
+* [Валидные элементы](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+* [Валидные атрибуты](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
