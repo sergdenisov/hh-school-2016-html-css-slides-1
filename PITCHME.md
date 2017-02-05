@@ -1,6 +1,6 @@
 #HSLIDE
 
-## HTML/CSS, часть 1
+### HTML/CSS, часть 1
 
 ![LOGO](images/HTML-CSS3.jpg)
 
@@ -10,3 +10,14 @@
 
 
 06.02.2017
+
+#HSLIDE
+
+### HTML5
+
+* Последняя версия языка гипертекстовой разметки ( **HyperText Markup Language — HTML** ), который используется для
+создания и визуального представления веб-страниц.
+* Набор технологий (APIs), позволяющих создавать разнообразные сайты и Web-приложения: Audio, Video, Drag and Drop и
+т.д.
+
+![LOGO](images/w3c-whatwg.jpg)
