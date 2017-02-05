@@ -38,4 +38,21 @@ Web-приложения: [Audio](https://developer.mozilla.org/en-US/docs/Web/A
 
 * [WHATWG](https://ru.wikipedia.org/wiki/WHATWG) (Web Hypertext Application Technology Working Group) — сообщество
 людей, заинтересованных в развитии Интернета. Оно было основано в 2004 году производителями
-браузеров: Apple, Mozilla Foundation и Opera Software. 
+браузеров: Apple, Mozilla Foundation и Opera Software.
+
+#HSLIDE
+
+### HTML: [Doctype](https://developer.mozilla.org/en-US/docs/Glossary/doctype)
+
+* HTML 4:
+
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+* HTML 5:
+
+```html
+<!DOCTYPE html>
+```
