@@ -417,3 +417,23 @@ border: 1px solid #000;
 #VSLIDE
 
 ![CSS Syntax: Statements](images/css-syntax-statements.png)
+
+#HSLIDE
+
+### CSS: [@import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) и [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+
+```css
+@import url("fineprint.css") print;
+@import url('custom.css');
+@import 'land.css' (orientation: landscape);
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/upkjzhys/):
+
+```css
+@media (max-width: 500px) {
+    div {
+        color: red;
+    }
+}
+```
