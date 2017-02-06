@@ -539,3 +539,34 @@ position: fixed;
 * [Пример с relative](https://jsfiddle.net/sergdenisov/o4r4nbam/).
 * [Пример с absolute](https://jsfiddle.net/sergdenisov/59vapgdm/).
 * [Пример с fixed](https://jsfiddle.net/sergdenisov/zgswLmrk/).
+
+#HSLIDE
+
+### CSS: [контект наложения](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)<br/>и [z-index](https://developer.mozilla.org/en/docs/Web/CSS/z-index)
+
+<img style="float: right;" src="images/understanding_zindex.png" alt="CSS: z-index">
+
+* Root
+    * DIV&nbsp;#1
+    * DIV&nbsp;#2
+    * DIV&nbsp;#3
+        * DIV&nbsp;#4
+        * DIV&nbsp;#5
+        * DIV&nbsp;#6
+
+#VSLIDE
+
+Новый контекс создается для:
+
+* Главного элемента `<html>`.
+
+* Элементов с `position: absolute`/`position: relative` с `z-index` отличным от `auto`.
+
+* Элементов с `position: fixed`.
+
+* Элементов с `opacity` меньше 1.
+
+* Элементов с `transform` отличным от `none`.
+
+[Пример](https://jsfiddle.net/sergdenisov/6v8dwtbh/).
+
