@@ -664,3 +664,30 @@ div ~ div {
 ```
 
 [Пример](https://jsfiddle.net/sergdenisov/ajpqx908/).
+
+
+#HSLIDE
+
+### CSS: [наследование](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
+
+* [Наследуемые свойства](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance#Inherited_properties):
+
+```css
+color, cursor, font, line-height, text-align
+```
+
+* [Ненаследуемые свойства](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance#Non-inherited_properties):
+
+```css
+border, padding, margin
+```
+
+* Значение [inherit](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit):
+
+```css
+#sidebar h2 { 
+    color: inherit;
+}
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/5nwy6b19/).
