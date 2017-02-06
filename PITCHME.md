@@ -462,3 +462,43 @@ display: table-cell;
 располагаются друг за другом вертикально.
 * [Строчные элементы](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#Inline-level_elements_and_inline_boxes)
 располагаются друг за другом горизонтально и построчно.
+
+#HSLIDE
+
+### CSS: [блочная модель](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+
+![CSS: Box model](images/boxmodel.png)
+
+#VSLIDE
+
+* [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+
+* [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height)
+
+* [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+
+* [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
+* [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+* [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
+* [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+
+[Пример](https://jsfiddle.net/sergdenisov/56mb5b7f/).
+
+#HSLIDE
+
+### CSS: [схлопывающиеся `margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+
+![CSS: Margin collapsing](images/collapsing-margins-in-css.png)
+
+#VSLIDE
+
+Только вертикальные `margin` у:
+
+* [Соседних элементов](https://jsfiddle.net/sergdenisov/q3r98cpe/).
+
+* [Родительского и первого/последнего дочернего элеменов](https://jsfiddle.net/sergdenisov/z3szt88k/).
+
+* [Пустого элемента](https://jsfiddle.net/sergdenisov/d79o4g9b/).
