@@ -570,3 +570,97 @@ position: fixed;
 
 [Пример](https://jsfiddle.net/sergdenisov/6v8dwtbh/).
 
+#HSLIDE
+
+### CSS: [селекторы](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)
+
+* [Простые](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors):
+по элементам, классам или id.
+* [По атрибутам](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors).
+* [По псевдо-классам](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-classes).
+* [По псевдо-элементам](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-elements).
+* [Комбинаторы](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors).
+
+#VSLIDE
+
+### Простые селекторы
+
+```css
+strong {
+    color: red;
+}
+.key {
+    color: green;
+}
+#principal {
+    font-weight: bolder;
+}
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/5anfbc64/).
+
+#VSLIDE
+
+### Селекторы по атрибутам
+
+```css
+[data-vegetable] {
+    color: green
+}
+[data-vegetable="liquid"] {
+    background-color: goldenrod;
+}
+[data-vegetable~="spicy"] {
+    color: red;
+}
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/o5zx0ktg/1/).
+
+#VSLIDE
+
+### Селекторы по псевдо-классам
+
+[Псевдо-классы](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes):
+```css
+:active, :checked, :disabled, :first-child,
+:focus, :hover, :last-child, :visited
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/fww3m0s3/).
+
+#VSLIDE
+
+### Селекторы по псевдо-элементам
+
+[Псевдо-элементы](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements):
+
+```css
+:after, :before, :first-letter, :first-line
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/kd9hfb2d/).
+
+#VSLIDE
+
+### Селекторы-комбинаторы
+
+```css
+div.red {
+    color: red;
+}
+div p {
+    color: green;
+}
+div > p {
+    color: white;
+}
+div + div {
+    color: yellow;
+}
+div ~ div {
+    color: black;
+}
+```
+
+[Пример](https://jsfiddle.net/sergdenisov/ajpqx908/).
