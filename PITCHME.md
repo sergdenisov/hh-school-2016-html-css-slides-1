@@ -502,3 +502,24 @@ display: table-cell;
 * [Родительского и первого/последнего дочернего элеменов](https://jsfiddle.net/sergdenisov/z3szt88k/).
 
 * [Пустого элемента](https://jsfiddle.net/sergdenisov/d79o4g9b/).
+
+#HSLIDE
+
+### CSS: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)/[clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)
+
+![CSS: Float/Clear](images/directionalclearing.png)
+
+#VSLIDE
+
+```css
+float: left;
+float: right;
+float: none;
+clear: left;
+clear: right;
+clear: both;
+clear: none;
+```
+
+[Пример с left](https://jsfiddle.net/sergdenisov/zzwvuk1z/1/), [пример с right](https://jsfiddle.net/sergdenisov/50g0tkoj/1/),
+[пример с both](https://jsfiddle.net/sergdenisov/jLm6k2Lu/).
