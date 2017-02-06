@@ -691,3 +691,18 @@ border, padding, margin
 ```
 
 [Пример](https://jsfiddle.net/sergdenisov/5nwy6b19/).
+
+
+#HSLIDE
+
+### CSS: [каскад](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+
+&nbsp;| Origin | Importance
+------|--------| ----------
+1 | user agent | normal
+2 | user agent | !important
+3 | user | normal
+4 | author | normal
+5 | CSS Animations |
+6 | author | !important
+7 | user | !important
