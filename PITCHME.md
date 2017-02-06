@@ -706,3 +706,23 @@ border, padding, margin
 5 | CSS Animations |
 6 | author | !important
 7 | user | !important
+
+#HSLIDE
+
+### CSS: [специфичность](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+
+Specificity | Selector type | Importance
+------------|---------------|-----------
+[0001] | Tag/pseudo-element | normal
+[0010] | Class/pseudo-class | normal
+[0100] | ID | normal
+[1000] | Style | normal
+
+#VSLIDE
+
+Specificity | Selector type | Importance
+------------|---------------|-----------
+[0001 0000] | Tag/pseudo-element | !important
+[0010 0000] | Class/pseudo-class | !important
+[0100 0000] | ID | !important
+[1000 0000] | Style | !important
