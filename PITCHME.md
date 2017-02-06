@@ -726,3 +726,23 @@ Specificity | Selector type | Importance
 [0010 0000] | Class/pseudo-class | !important
 [0100 0000] | ID | !important
 [1000 0000] | Style | !important
+
+#HSLIDE
+
+### CSS: рекомендации
+
+* Предпочитайте селекторы по классам остальным.
+* Именуйте классы [по смыслу](https://google.github.io/styleguide/htmlcssguide.xml?showone=ID_and_Class_Naming#ID_and_Class_Naming),
+а не по значению.
+* Старайтесь не использовать [сокращения](https://google.github.io/styleguide/htmlcssguide.xml?showone=ID_and_Class_Name_Style#ID_and_Class_Name_Style).
+* Старайтесь избегать [хаков](https://google.github.io/styleguide/htmlcssguide.xml?showone=Hacks#Hacks).
+* [Google CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml#CSS_Style_Rules).
+
+#HSLIDE
+
+### Ссылки
+
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en/).
+* [Can I Use?](http://caniuse.com)
+* [Stackoverflow](http://stackoverflow.com) (только с пруфами)
+
