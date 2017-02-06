@@ -521,5 +521,21 @@ clear: both;
 clear: none;
 ```
 
-[Пример с left](https://jsfiddle.net/sergdenisov/zzwvuk1z/1/), [пример с right](https://jsfiddle.net/sergdenisov/50g0tkoj/1/),
+[Пример с left](https://jsfiddle.net/sergdenisov/zzwvuk1z/1/),
+[пример с right](https://jsfiddle.net/sergdenisov/50g0tkoj/1/),
 [пример с both](https://jsfiddle.net/sergdenisov/jLm6k2Lu/).
+
+#HSLIDE
+
+### CSS: [position](https://developer.mozilla.org/en/docs/Web/CSS/position)
+
+```css
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+```
+
+* [Пример с relative](https://jsfiddle.net/sergdenisov/o4r4nbam/).
+* [Пример с absolute](https://jsfiddle.net/sergdenisov/59vapgdm/).
+* [Пример с fixed](https://jsfiddle.net/sergdenisov/zgswLmrk/).
